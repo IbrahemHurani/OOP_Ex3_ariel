@@ -32,21 +32,21 @@ my algorthim implements the weighted directed graph in python the important impo
 # compare time between java and python:
 |Name Function|Node numbers with averge edge for node in/out|       Java   |   python  |
 |-------------|---------------------------------------------|--------------|-----------|
-|shortestpath |  100 Nodes and averges 20 edges for one node|    125 ms    |           |
-|center       |  100 Nodes and averges 20 edges for one node|    47 ms     |           | 
+|shortestpath |  100 Nodes and averges 20 edges for one node|    125 ms    |    7 ms   |
+|center       |  100 Nodes and averges 20 edges for one node|    47 ms     |    300 ms | 
 |Tsp          |  100 Nodes and averges 20 edges for one node|    31 ms     |           |
 
 
 |Name Function|Node numbers with averge edge for node in/out |    Java     |    python |
 |-------------|----------------------------------------------|-------------|-----------|
-|shortestpath |  1000 Nodes and averges 20 edges for one node|    256 ms   |           |   
-|center       |  1000 Nodes and averges 20 edges for one node|    890 ms   |           |
+|shortestpath |  1000 Nodes and averges 20 edges for one node|    256 ms   |    46ms   |   
+|center       |  1000 Nodes and averges 20 edges for one node|    890 ms   |     30 s  |
 |Tsp          |  1000 Nodes and averges 20 edges for one node|    250 ms   |           |
 
 |Name Function|Node numbers with averge edge for node in/out  |     java          |     python   |
 |-------------|-----------------------------------------------|-------------------|--------------|
-|shortestpath |  10000 Nodes and averges 20 edges for one node|    3 sec 343ms    |              |
-|center       |  10000 Nodes and averges 20 edges for one node|    47 sec 731ms   |              |
+|shortestpath |  10000 Nodes and averges 20 edges for one node|    3 sec 343ms    |       78 ms  |
+|center       |  10000 Nodes and averges 20 edges for one node|    47 sec 731ms   |        60 s  |
 |Tsp          |  10000 Nodes and averges 20 edges for one node|    14 sec 420 ms  |              |
 
 
