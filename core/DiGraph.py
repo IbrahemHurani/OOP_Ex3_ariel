@@ -77,7 +77,7 @@ class DiGraph(GraphInterface):
         if self.has_edge(node_id1, node_id2):
             self.Edges[node_id1].pop(node_id2)
             self.in_edges[node_id2].pop(node_id1)
-            self.num_of_edges -= 1
+            self.size_of_edges -= 1
             self.mc += 1
             return True
         return False
