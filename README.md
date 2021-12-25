@@ -30,6 +30,25 @@ my algorthim implements the weighted directed graph in python the important impo
 7.def TSP(self, node_lst: List[int]) -> (List[int], float):#this functio Finds the shortest path that visits all the nodes in the list for another information can visti:https://en.wikipedia.org/wiki/Travelling_salesman_problem
 ``` 
 
+|Name Function|Node numbers with averge edge for node in/out|       Java   |   python  |
+|-------------|---------------------------------------------|--------------|-----------|
+|shortestpath |  100 Nodes and averges 20 edges for one node|    125 ms    |           |
+|center       |  100 Nodes and averges 20 edges for one node|    47 ms     |           | 
+|Tsp          |  100 Nodes and averges 20 edges for one node|    31 ms     |           |
+
+
+|Name Function|Node numbers with averge edge for node in/out |    Java     |    python |
+|-------------|----------------------------------------------|-------------|-----------|
+|shortestpath |  1000 Nodes and averges 20 edges for one node|    256 ms   |           |   
+|center       |  1000 Nodes and averges 20 edges for one node|    890 ms   |           |
+|Tsp          |  1000 Nodes and averges 20 edges for one node|    250 ms   |           |
+
+|Name Function|Node numbers with averge edge for node in/out  |     java          |     python   |
+|-------------|-----------------------------------------------|-------------------|--------------|
+|shortestpath |  10000 Nodes and averges 20 edges for one node|    3 sec 343ms    |              |
+|center       |  10000 Nodes and averges 20 edges for one node|    47 sec 731ms   |              |
+|Tsp          |  10000 Nodes and averges 20 edges for one node|    14 sec 420 ms  |              |
+
 
 
 
