@@ -29,7 +29,7 @@ my algorthim implements the weighted directed graph in python the important impo
 6.def plot_graph(self) -> None:#this function to draw all the graph and this function working with matplotlib.pyplot library in python
 7.def TSP(self, node_lst: List[int]) -> (List[int], float):#this functio Finds the shortest path that visits all the nodes in the list for another information can visti:https://en.wikipedia.org/wiki/Travelling_salesman_problem
 ``` 
-
+# compare time between java and python:
 |Name Function|Node numbers with averge edge for node in/out|       Java   |   python  |
 |-------------|---------------------------------------------|--------------|-----------|
 |shortestpath |  100 Nodes and averges 20 edges for one node|    125 ms    |           |
