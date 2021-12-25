@@ -50,7 +50,7 @@ my algorthim implements the weighted directed graph in python the important impo
 |Tsp          |  10000 Nodes and averges 20 edges for one node|    14 sec 420 ms  |              |
 
 # UML diagram algorithm:
-![image](https://user-images.githubusercontent.com/86603326/147393845-15c73399-7b36-4093-b76c-d2a96c1feb9c.png)
+![image](https://user-images.githubusercontent.com/86603326/147394463-873d5219-2edc-4623-b246-213ef6deeeb6.png)
 
 
 
