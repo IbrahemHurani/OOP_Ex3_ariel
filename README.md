@@ -35,21 +35,21 @@ my algorthim implements the weighted directed graph in python the important impo
 |Name Function|Node numbers with averge edge for node in/out|       Java   |   python  |
 |-------------|---------------------------------------------|--------------|-----------|
 |shortestpath |  100 Nodes and averges 20 edges for one node|    125 ms    |    7 ms   |
-|center       |  100 Nodes and averges 20 edges for one node|    47 ms     |    300 ms | 
-|Tsp          |  100 Nodes and averges 20 edges for one node|    31 ms     |           |
+|center       |  100 Nodes and averges 20 edges for one node|    47 ms     |2 sec 280ms| 
+|Tsp          |  100 Nodes and averges 20 edges for one node|    31 ms     | 62 ms     |
 
 
-|Name Function|Node numbers with averge edge for node in/out |    Java     |    python |
-|-------------|----------------------------------------------|-------------|-----------|
-|shortestpath |  1000 Nodes and averges 20 edges for one node|    256 ms   |    46ms   |   
-|center       |  1000 Nodes and averges 20 edges for one node|    890 ms   |     40 s  |
-|Tsp          |  1000 Nodes and averges 20 edges for one node|    250 ms   |           |
+|Name Function|Node numbers with averge edge for node in/out |    Java     |    python          |
+|-------------|----------------------------------------------|-------------|--------------------|
+|shortestpath |  1000 Nodes and averges 20 edges for one node|    256 ms   |        98 ms       |   
+|center       |  1000 Nodes and averges 20 edges for one node|    890 ms   | bigger than 1 min  |
+|Tsp          |  1000 Nodes and averges 20 edges for one node|    250 ms   |         145 ms     |
 
 |Name Function|Node numbers with averge edge for node in/out  |     java          |     python   |
 |-------------|-----------------------------------------------|-------------------|--------------|
-|shortestpath |  10000 Nodes and averges 20 edges for one node|    3 sec 343ms    |       78 ms  |
-|center       |  10000 Nodes and averges 20 edges for one node|    47 sec 731ms   |        100 s |
-|Tsp          |  10000 Nodes and averges 20 edges for one node|    14 sec 420 ms  |              |
+|shortestpath |  10000 Nodes and averges 20 edges for one node|    3 sec 343ms    | 1 sec 109ms  |
+|center       |  10000 Nodes and averges 20 edges for one node|    47 sec 731ms   |   time out   |
+|Tsp          |  10000 Nodes and averges 20 edges for one node|    14 sec 420 ms  | 1 sec 990 ms |
 
 # UML diagram algorithm:
 ![image](https://user-images.githubusercontent.com/86603326/147405112-f47c5377-ad53-4986-b5a5-c13a4f9c5aea.png)
