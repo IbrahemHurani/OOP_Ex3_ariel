@@ -26,8 +26,8 @@ class TestGraphAlgo(unittest.TestCase):
     def test_TSP(self):#not work
         g = graph_creator()
         graph=GraphAlgo(g)
-        pass
-
+        path=[2,0,5,4,3,9]
+        self.assertEqual((path,56),graph.TSP([2,5,4,3,9,0]))
     def test_centerPoint(self):
         g=graph_creator()
         graph=GraphAlgo(g)
