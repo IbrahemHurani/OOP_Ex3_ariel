@@ -42,13 +42,13 @@ my algorthim implements the weighted directed graph in python the important impo
 |Name Function|Node numbers with averge edge for node in/out |    Java     |    python |
 |-------------|----------------------------------------------|-------------|-----------|
 |shortestpath |  1000 Nodes and averges 20 edges for one node|    256 ms   |    46ms   |   
-|center       |  1000 Nodes and averges 20 edges for one node|    890 ms   |     30 s  |
+|center       |  1000 Nodes and averges 20 edges for one node|    890 ms   |     40 s  |
 |Tsp          |  1000 Nodes and averges 20 edges for one node|    250 ms   |           |
 
 |Name Function|Node numbers with averge edge for node in/out  |     java          |     python   |
 |-------------|-----------------------------------------------|-------------------|--------------|
 |shortestpath |  10000 Nodes and averges 20 edges for one node|    3 sec 343ms    |       78 ms  |
-|center       |  10000 Nodes and averges 20 edges for one node|    47 sec 731ms   |        60 s  |
+|center       |  10000 Nodes and averges 20 edges for one node|    47 sec 731ms   |        100 s |
 |Tsp          |  10000 Nodes and averges 20 edges for one node|    14 sec 420 ms  |              |
 
 # UML diagram algorithm:
