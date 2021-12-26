@@ -3,7 +3,6 @@ import json
 import math
 import random
 from typing import List
-
 from src.GraphAlgoInterface import GraphInterface
 from src.GraphAlgoInterface import GraphAlgoInterface
 from core.DiGraph import DiGraph
@@ -16,9 +15,11 @@ class GraphAlgo(GraphAlgoInterface):
     def __init__(self, g: GraphInterface = None):
         self.graph = g
 
+    # this function return the graph
     def get_graph(self) -> GraphInterface:
         return self.graph
 
+    # this function read the file json and input to class
     def load_from_json(self, file_name: str) -> bool:
         load_graph = DiGraph()
         try:
@@ -50,6 +51,7 @@ class GraphAlgo(GraphAlgoInterface):
             return False
         return True
 
+    # this function to save the file json
     def save_to_json(self, file_name: str) -> bool:
         try:
             with open(file_name, 'w') as fp:
@@ -59,6 +61,7 @@ class GraphAlgo(GraphAlgoInterface):
             return False
         return True
 
+    # this function return the short path in the graph and the dest for the this path
     def shortest_path(self, id1: int, id2: int) -> (float, list):
         unseen_nodes = self.graph.get_all_v()
         if id1 not in unseen_nodes or id2 not in unseen_nodes:
@@ -93,6 +96,7 @@ class GraphAlgo(GraphAlgoInterface):
             p = track_predecessor[p]
         return shortest_distance[id2], path
 
+    # this function return the graph center in the graph
     def centerPoint(self) -> (int, float):
         center = -1
         max = math.inf
@@ -109,14 +113,34 @@ class GraphAlgo(GraphAlgoInterface):
                     check = dist
 
             if check < max:
-                max =check
+                max = check
                 d = check
                 center = i
 
         return center, d
 
+    # this function for travelling salesman problem
     def TSP(self, node_lst: List[int]) -> (List[int], float):
-        pass
+        if node_lst is None:
+            return None, -1
+        path = []
+        List = node_lst
+        indexForlist = 0
+        DestThePath = 0
+        src = List[indexForlist]
+        indexForlist += 1
+        while indexForlist < len(node_lst):
+            dest = List[indexForlist]
+            list_shortPath = self.shortest_path(src, dest)[1]  # this the path from src to dest
+            DestThePath = DestThePath + self.shortest_path(src, dest)[0]  # the for the dest for the path from src to dest
+            src = dest
+            indexForlist += 1
+            for i in list_shortPath:
+                if i not in path:
+                    path.append(i)
+        return path, DestThePath
+
+    # this function to draw all the graph
     def plot_graph(self) -> None:
         if self.graph.v_size() > 9:
             head_p = 0.00025
@@ -153,4 +177,3 @@ class GraphAlgo(GraphAlgoInterface):
                 plt.arrow(x, y, dx - x, dy - y, head_width=head_p, length_includes_head=True, width=wid_p)
         plt.plot(x_val, y_val, 'or')
         plt.show()
-
