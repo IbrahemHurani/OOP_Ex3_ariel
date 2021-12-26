@@ -23,7 +23,7 @@ class TestGraphAlgo(unittest.TestCase):
         graph=GraphAlgo(g)
         self.assertEqual((6,[1,5]),graph.shortest_path(1,5))
         self.assertEqual((13,[10,0,15]),graph.shortest_path(10,15))
-    def test_TSP(self):#not work
+    def test_TSP(self):
         g = graph_creator()
         graph=GraphAlgo(g)
         path=[2,0,5,4,3,9]
