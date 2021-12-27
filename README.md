@@ -34,22 +34,25 @@ my algorthim implements the weighted directed graph in python the important impo
 # compare time between java and python:
 |Name Function|Node numbers with averge edge for node in/out|       Java   |   python  |
 |-------------|---------------------------------------------|--------------|-----------|
-|shortestpath |  100 Nodes and averges 20 edges for one node|    125 ms    |    7 ms   |
-|center       |  100 Nodes and averges 20 edges for one node|    47 ms     |2 sec 280ms| 
-|Tsp          |  100 Nodes and averges 20 edges for one node|    31 ms     | 62 ms     |
+|shortestpath |  100 Nodes and averges 20 edges for one node|    100 ms    |    110 ms |
+|center       |  100 Nodes and averges 20 edges for one node|    47 ms     |7 sec 88ms | 
+|Tsp          |  100 Nodes and averges 20 edges for one node|    31 ms     | 80 ms     |
 
 
 |Name Function|Node numbers with averge edge for node in/out |    Java     |    python          |
 |-------------|----------------------------------------------|-------------|--------------------|
-|shortestpath |  1000 Nodes and averges 20 edges for one node|    256 ms   |        98 ms       |   
+|shortestpath |  1000 Nodes and averges 20 edges for one node|    256 ms   |        270 ms      |   
 |center       |  1000 Nodes and averges 20 edges for one node|    890 ms   | bigger than 1 min  |
-|Tsp          |  1000 Nodes and averges 20 edges for one node|    250 ms   |         145 ms     |
+|Tsp          |  1000 Nodes and averges 20 edges for one node|    250 ms   |         320 ms     |
 
-|Name Function|Node numbers with averge edge for node in/out  |     java          |     python   |
-|-------------|-----------------------------------------------|-------------------|--------------|
-|shortestpath |  10000 Nodes and averges 20 edges for one node|    3 sec 343ms    | 1 sec 109ms  |
-|center       |  10000 Nodes and averges 20 edges for one node|    47 sec 731ms   |   time out   |
-|Tsp          |  10000 Nodes and averges 20 edges for one node|    14 sec 420 ms  | 1 sec 990 ms |
+|Name Function|Node numbers with averge edge for node in/out  |     java          |     python          |
+|-------------|-----------------------------------------------|-------------------|---------------------|
+|shortestpath |  10000 Nodes and averges 20 edges for one node|    3 sec 343ms    | 4 sec 109ms         |
+|center       |  10000 Nodes and averges 20 edges for one node|    1 min          | bigger than 3 min   |
+|Tsp          |  10000 Nodes and averges 20 edges for one node|    14 sec 420 ms  | 16 sec 990 ms       |
+
+for function load and save i take test on A3,A4,A5 it's take time for 15-30 ms in python 
+in java take save take 100-250 ms and load take 30-60 ms
 
 # UML diagram algorithm:
 ![image](https://user-images.githubusercontent.com/86603326/147405112-f47c5377-ad53-4986-b5a5-c13a4f9c5aea.png)
