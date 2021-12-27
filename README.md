@@ -39,6 +39,11 @@ my algorthim implements the weighted directed graph in python the important impo
 5.def check3()#this function insert 5 nodes and 8 edge 
 ```
 
+# Tests:
+* TestDiGraph: this Test for check if all function in class DiGraph is working perfect According to the graph you build .
+* TestGraphAlgo:this Test for check if all the fucntion in class GraphAlgo is working and return all result is right perfect According to the graph you build.
+* TestFile:this Test read from file json (load) and to check all the function in class GraphAlgo(in core you can find this test and the example I do on file A5.json).
+
 
 # compare time between java and python: ![image](https://user-images.githubusercontent.com/86603326/147484675-483c16fd-c36b-42e3-8e1b-549bbb652f2e.png)
 
