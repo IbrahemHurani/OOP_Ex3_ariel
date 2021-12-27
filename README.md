@@ -22,12 +22,12 @@ my algorthim implements the weighted directed graph in python the important impo
 * class GraphAlgo:this class implements GraphAlgoInterface the function implements in this class
 ```python
 1.def get_graph(self) -> GraphInterface:#this function return the graph
-2.def load_from_json(self, file_name: str) -> bool:#this function for read the file json and input in the graph
+2.def load_from_json(self, file_name: str) -> bool:#this function for read the file json and input in the graph(input to variables)
 3.def save_to_json(self, file_name: str) -> bool:#this function to save the file json
 4.def shortest_path(self, id1: int, id2: int) -> (float, list):#this function return the short path form node to another node in the graph for another information can visit https://en.wikipedia.org/wiki/Shortest_path_problem
 5.def centerPoint(self) -> (int, float):#this function return the center of the graph for another information for graph center can visit:https://en.wikipedia.org/wiki/Graph_center 
 6.def plot_graph(self) -> None:#this function to draw all the graph and this function working with matplotlib.pyplot library in python
-7.def TSP(self, node_lst: List[int]) -> (List[int], float):#this functio Finds the shortest path that visits all the nodes in the list for another information can visti:https://en.wikipedia.org/wiki/Travelling_salesman_problem
+7.def TSP(self, node_lst: List[int]) -> (List[int], float):#this function Finds the shortest path that visits all the nodes in the list for another information can visti:https://en.wikipedia.org/wiki/Travelling_salesman_problem
 ``` 
 * class main:this class for compile the code and this class have four function to check if all the classes work perfect.
 
@@ -52,6 +52,7 @@ my algorthim implements the weighted directed graph in python the important impo
 |Tsp          |  10000 Nodes and averges 20 edges for one node|    14 sec 420 ms  | 16 sec 990 ms       |
 
 for function load and save i take test on A3,A4,A5 it's take time for 15-30 ms in python 
+
 in java function save take 100-250 ms and load take 30-60 ms
 
 # UML diagram algorithm:
