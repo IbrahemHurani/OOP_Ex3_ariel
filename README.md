@@ -52,7 +52,7 @@ my algorthim implements the weighted directed graph in python the important impo
 |Tsp          |  10000 Nodes and averges 20 edges for one node|    14 sec 420 ms  | 16 sec 990 ms       |
 
 for function load and save i take test on A3,A4,A5 it's take time for 15-30 ms in python 
-in java take save take 100-250 ms and load take 30-60 ms
+in java function save take 100-250 ms and load take 30-60 ms
 
 # UML diagram algorithm:
 ![image](https://user-images.githubusercontent.com/86603326/147405112-f47c5377-ad53-4986-b5a5-c13a4f9c5aea.png)
