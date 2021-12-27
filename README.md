@@ -72,6 +72,7 @@ in java function save take 100-250 ms and load take 30-60 ms
 
 # Quick Draw:
 1.open the Terminal in the Folder after to download the all files form my github.
+
 2.write in the Terminal ->python core/Ex3.py ./data/A1.json (with your path)
 
 # UML diagram algorithm:
