@@ -29,7 +29,16 @@ my algorthim implements the weighted directed graph in python the important impo
 6.def plot_graph(self) -> None:#this function to draw all the graph and this function working with matplotlib.pyplot library in python
 7.def TSP(self, node_lst: List[int]) -> (List[int], float):#this function Finds the shortest path that visits all the nodes in the list for another information can visti:https://en.wikipedia.org/wiki/Travelling_salesman_problem
 ``` 
-* class main:this class for compile the code and this class have four function to check if all the classes work perfect.
+* class main:this class for compile the code and this class have four function to check if all the classes work perfect.the funtion in this class :
+
+```python
+1.def check() #this function to compile three function in the same time ->check0 and check1 and check2
+2.def check0()#this function insert 4 nodes and 6 edges and remove one edge 
+3.def check1()# this function read from file json(load) and insert to the graph and draw it and print the center and the shortpath
+4.def check2()#this function work like a check1()
+5.def check3()#this function insert 5 nodes and 8 edge 
+```
+
 
 # compare time between java and python: ![image](https://user-images.githubusercontent.com/86603326/147484675-483c16fd-c36b-42e3-8e1b-549bbb652f2e.png)
 
