@@ -70,6 +70,10 @@ for function load and save i take test on A3,A4,A5 it's take time for 15-30 ms i
 
 in java function save take 100-250 ms and load take 30-60 ms
 
+# Quick Draw:
+1.open the Terminal in the Folder after to download the all files form my github.
+2.write in the Terminal ->python core/Ex3.py ./data/A1.json (with your path)
+
 # UML diagram algorithm:
 ![image](https://user-images.githubusercontent.com/86603326/147405112-f47c5377-ad53-4986-b5a5-c13a4f9c5aea.png)
 
