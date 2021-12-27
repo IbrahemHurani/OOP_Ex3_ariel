@@ -31,7 +31,8 @@ my algorthim implements the weighted directed graph in python the important impo
 ``` 
 * class main:this class for compile the code and this class have four function to check if all the classes work perfect.
 
-# compare time between java and python:
+# compare time between java and python: ![image](https://user-images.githubusercontent.com/86603326/147484675-483c16fd-c36b-42e3-8e1b-549bbb652f2e.png)
+
 |Name Function|Node numbers with averge edge for node in/out|       Java   |   python  |
 |-------------|---------------------------------------------|--------------|-----------|
 |shortestpath |  100 Nodes and averges 20 edges for one node|    100 ms    |    110 ms |
